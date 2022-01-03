@@ -1,6 +1,5 @@
 import mongoose from 'mongoose'
 import bcrypt from 'bcrypt'
-import { string } from 'zod'
 
 export interface UserDocument extends mongoose.Document {
   email: string
